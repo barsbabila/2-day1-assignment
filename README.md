@@ -2,4 +2,4 @@
 Day1-assignment
 
 Hello! We are group 2.
-  Karthikeyans Saravanan , Samiha Abeda Nur , Emmanuel Marquez and Bars babila.
+  Karthikeyan Saravanan , Samiha Abeda Nur , Emmanuel Marquez and Bars babila.
