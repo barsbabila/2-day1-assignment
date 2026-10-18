@@ -426,3 +426,27 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+
+#virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# data and outputs (download them in the notebook instead)
+*.csv
+data/*
+!data/.gitkeep
+*.jpeg
+**.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+kaggle.json
