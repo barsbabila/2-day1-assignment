@@ -1,7 +1,7 @@
 # 2-day1-assignment
 Day1-assignment
 
-# Group 2 — House Sales: Data Cleaning and EDA
+# Group 2 - House Sales: Data Cleaning and EDA
 
 This project explores house sales in King County, Washington, USA. We clean the dataset and examine how price relates to house size, bedrooms, construction quality and location.
 
