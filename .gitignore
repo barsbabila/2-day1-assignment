@@ -432,6 +432,7 @@ FodyWeavers.xsd
 .venv/
 venv/
 env/
+.conda/
 
 # Jupyter
 .ipynb_checkpoints/
