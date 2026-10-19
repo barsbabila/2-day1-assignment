@@ -1,7 +1,7 @@
 # 2-day1-assignment
 Day1-assignment
 
-# Group 2 — House Sales: Data Cleaning and EDA
+# Group 2 - House Sales: Data Cleaning and EDA
 
 This project explores house sales in King County, Washington, USA. We clean the dataset and examine how price relates to house size, bedrooms, construction quality and location.
 
@@ -11,6 +11,10 @@ This project explores house sales in King County, Washington, USA. We clean the 
 - Emmanuel Marquez
 - Bars babila
 - Samiha Abeda Nur
+
+## Use case
+
+Which physical characteristics of a house (size, construction quality, age, basement, renovation) are associated with a higher sale price once location is taken into account? For architects and developers, this shows which design decisions the market values. The clean dataset will be used on Day 2 to predict the sale price.
 
 ## Dataset
 
@@ -52,10 +56,13 @@ The notebook includes:
 
 ## Main findings
 
+- Prices are right-skewed: median 450,000 USD vs mean 519,000 USD, so we use the median and will model log(price).
 - Three- and four-bedroom houses account for most sales.
 - Median price generally increases with bedroom count and living area.
 - Grade and living area have the strongest correlations with price among the features included in our heatmap: 0.63 and 0.61.
-- Prices differ across ZIP codes, even for houses with the same bedroom count.
+- Location drives the price per sqft: among the 10 ZIP codes with most sales, the most expensive (98103, ≈360 USD/sqft) costs about 2.5× the cheapest (98023, ≈145 USD/sqft). Prices differ across ZIP codes even for houses with the same bedroom count.
+- Compared with their own ZIP code, houses with a basement are ≈6% below the median price per sqft and houses without one ≈4% above. Renovated houses (4% of sales) are ≈4% above.
+- Houses built before 1960 are slightly above their ZIP code median, newer ones around or just below it.
 - Living area, above-ground area and bathrooms contain overlapping information.
 - Condition has a weak overall correlation with total price, although patterns may differ within locations.
 
@@ -68,4 +75,5 @@ These findings show associations, not proof of cause and effect.
 - Removing unusual records affects the results.
 - Some groups contain fewer sales, making comparisons less reliable.
 - Several connected features can affect price at the same time.
+
 
