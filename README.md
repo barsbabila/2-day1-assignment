@@ -28,7 +28,13 @@ Source: https://www.kaggle.com/datasets/harlfoxem/housesalesprediction
 
 ## Data cleaning
 
-We checked the data for duplicate records, missing values and unusual values. We converted the sale date to a datetime format and removed the waterfront and view columns.
+We checked the data for duplicate records, missing values and unusual values. 
+
+Most of the dataset is already well-structured and ready for analysis, requiring only a few adjustments.
+
+**Date formatting:** We convert the 'date' column from a string to a datetime format to make it easier to work with.
+
+**Column removal:** We remove the 'view' and 'waterfront' columns because their values are heavily concentrated at zero, with relatively few observations having higher values. We decide to exclude these features to simplify the dataset and focus on variables with greater variation.
 
 We filtered records using the 1st and 99th percentiles of price, living area and bedroom count. This removed 910 records. These thresholds help focus the analysis on typical sales, but may also exclude genuine unusual properties.
 
@@ -39,7 +45,6 @@ For the analysis, we added:
 - Price per square foot relative to the ZIP code median
 - Indicators for basements and recorded renovations
 - Construction-period groups
-
 
 ## Exploratory data analysis
 
