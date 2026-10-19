@@ -63,7 +63,6 @@ The notebook includes:
 - Location drives the price per sqft: among the 10 ZIP codes with most sales, the most expensive (98103, ≈360 USD/sqft) costs about 2.5× the cheapest (98023, ≈145 USD/sqft). Prices differ across ZIP codes even for houses with the same bedroom count.
 - Compared with their own ZIP code, houses with a basement are ≈6% below the median price per sqft and houses without one ≈4% above. Renovated houses (4% of sales) are ≈4% above.
 - Houses built before 1960 are slightly above their ZIP code median, newer ones around or just below it.
-Living area, above-ground area and bathrooms con
 - Living area, above-ground area and bathrooms contain overlapping information.
 - Condition has a weak overall correlation with total price, although patterns may differ within locations.
 
