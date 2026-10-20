@@ -441,8 +441,8 @@ env/
 *.csv
 data/*
 !data/.gitkeep
-*.jpeg
-**.png
+
+
 
 # OS files
 .DS_Store
